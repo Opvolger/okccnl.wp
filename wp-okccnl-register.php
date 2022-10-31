@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: OKCCNL C Register
-Plugin URI:  https://github.com/Opvolger/wp-okccnl-register
+Plugin URI:  https://github.com/Opvolger/okccnl.wp
 Description: Opel Kadett C Register
-Version:     0.4
-Author:      Bas Magre
+Version:     0.5
+Author:      Bas Magré
 Author URI:  http://www.opelkadettcclub.nl
 License:     None
 License URI: https://
