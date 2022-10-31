@@ -497,6 +497,15 @@ function cf_shortcode()
     return ob_get_clean();
 }
 
+function okccnl_plugin_setup_menu(){
+    add_menu_page( 'OKCCNL Plugin Page', 'OKCCNL Plugin', 'manage_options', 'okccnl-plugin', 'okccnl_admin_init' );
+}
+
+function okccnl_admin_init(){
+    echo "<h1>Hello World!</h1>";
+}
+
 add_shortcode('kadett_c_register', 'cf_shortcode');
+add_action('admin_menu', 'okccnl_plugin_setup_menu');
 
 // http://localhost:8282/wp-admin
